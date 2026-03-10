@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missing Groceries</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <main class="widget">
+        <header class="masthead">
+            <img src="img/shoping-cart-bag.jpg" alt="Shopping Cart and Bag" class="masthead-icon"/>
+            <h1>Buy<br>Groceries</h1>
+            <p class="tagline">What do you need to buy today?</p>
+        </header>
+        <section class="main-content">
+            <label for="itemInput" class="sr-only">Enter grocery items</label>
+            <input
+            type="text"
+            id="itemInput"
+            class="item-input"
+            placeholder="your item here..."
+            >
+
+            <button id="addButton" class="add-btn">Add To List</button>
+            <p class="feedback"></p>
+            <ul id="shoppingList" class="shopping-list"></ul>
+
+        </section>
+        <footer class="footer">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+        </footer>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
